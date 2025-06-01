@@ -130,3 +130,25 @@ python src/c_train_model.py
 # 4. Make sample prediction
 python src/d_predict.py
 ```
+#### Sample Prediction
+```python
+from src.predict import detect_fraud
+
+sample_transaction = {
+    "amount": 1250.00,
+    "merchant": "ElectroWorld",
+    "category": "Electronics", 
+    "location": "CN",
+    "device": "iPhone13,4",
+    "time": "2023-12-25 03:15:22"
+}
+```
+#### Output
+```python
+{
+  "fraud_probability": 0.934,
+  "is_fraud": 1,
+  "alert_level": "HIGH RISK"
+}
+print(detect_fraud(sample_transaction))
+```
