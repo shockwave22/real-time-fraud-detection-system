@@ -1,5 +1,7 @@
 # 💳 Real-Time Fraud Detection System
 
+#fraud-detection #machine-learning #fintech #xgboot #python
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.0-orange)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Production%20Ready-brightgreen)
